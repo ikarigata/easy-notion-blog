@@ -115,14 +115,14 @@ h3 {
 }
 
 ol {
-  color: #222;
+  color: var(--fg);
   font-weight: 400;
   font-size: 0.9rem;
   line-height: 1.8rem;
 }
 p,
 ul {
-  color: #222;
+  color: var(--fg);
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.8rem;
@@ -155,7 +155,7 @@ code {
 }
 
 table {
-  color: #222;
+  color: var(--fg);
   border-collapse: collapse;
 }
 
