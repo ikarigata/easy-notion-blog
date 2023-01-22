@@ -4,8 +4,10 @@
   --gap: 1rem;
   --gap-double: 2rem;
 
-  --bg: #fff;
-  --fg: #333;
+  /*--bg: #fff;*/
+  /*--fg: #333;*/
+  --bg: #202124;
+  --fg: #E8EAED;
   --accents-1: #0070f3;
   --accents-2: #3291ff;
   --accents-3: #666;
