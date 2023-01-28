@@ -18,6 +18,7 @@ import {
   getRankedPosts,
   getAllTags,
 } from '../../lib/notion/client'
+import { NEXT_PUBLIC_SITE_TITLE } from '../server-constants'
 
 export const revalidate = 60
 
@@ -31,7 +32,7 @@ const BlogPage = async () => {
 
   return (
     <>
-      <GoogleAnalytics pageTitle="Blog" />
+      <GoogleAnalytics pageTitle={NEXT_PUBLIC_SITE_TITLE} />
       <div className={styles.container}>
         <div className={styles.mainContent}>
           <NoContents contents={posts} />

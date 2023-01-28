@@ -27,7 +27,7 @@ const Header = () => {
         </Link>
       </h1>
 
-      {/* <ul>
+      <ul>
         {navItems.map(({ label, path }) => (
           <li key={label}>
             <Link href={path} className={pathname === path ? 'active' : null}>
@@ -35,7 +35,7 @@ const Header = () => {
             </Link>
           </li>
         ))}
-      </ul> */}
+      </ul>
     </header>
   )
 }

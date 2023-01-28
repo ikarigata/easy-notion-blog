@@ -37,4 +37,13 @@ module.exports = {
   experimental: {
     appDir: true,
   },
+
+  async rewrites() {
+    return [
+      {
+        source: "/",
+        destination: "/home",
+      },
+    ];
+  },
 }
