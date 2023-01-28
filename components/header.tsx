@@ -14,9 +14,9 @@ const Header = () => {
   const pathname = usePathname()
 
   const navItems: NavItem[] = [
-    // { label: 'Home', path: '/' },
+    { label: 'Home', path: '/' },
     { label: 'Blog', path: '/blog' }
-    // ,
+    ,
   ]
 
   return (
@@ -27,7 +27,7 @@ const Header = () => {
         </Link>
       </h1>
 
-      <ul>
+      {/* <ul>
         {navItems.map(({ label, path }) => (
           <li key={label}>
             <Link href={path} className={pathname === path ? 'active' : null}>
@@ -35,7 +35,7 @@ const Header = () => {
             </Link>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </header>
   )
 }
