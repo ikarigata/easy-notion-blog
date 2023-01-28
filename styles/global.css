@@ -194,9 +194,9 @@ table th {
 }
 
 .neon {
-  animation: neon 3s ease infinite;
-  -moz-animation: neon 3s ease infinite;
-  -webkit-animation: neon 3s ease infinite;
+  animation: neon 7s ease infinite;
+  -moz-animation: neon 7s ease infinite;
+  -webkit-animation: neon 7s ease infinite;
 }
 
 @keyframes neon {
