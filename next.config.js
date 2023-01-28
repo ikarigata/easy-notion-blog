@@ -37,5 +37,4 @@ module.exports = {
   experimental: {
     appDir: true,
   },
-  assetPrefix: '/blog',
 }
