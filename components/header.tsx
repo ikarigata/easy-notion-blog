@@ -11,13 +11,13 @@ interface NavItem {
 }
 
 const Header = () => {
-  const pathname = usePathname()
+  // const pathname = usePathname()
 
-  const navItems: NavItem[] = [
-    { label: 'Home', path: '/' },
-    { label: 'Blog', path: '/blog' }
-    ,
-  ]
+  // const navItems: NavItem[] = [
+  //   { label: 'Home', path: '/' },
+  //   { label: 'Blog', path: '/blog' }
+  //   ,
+  // ]
 
   return (
     <header className={styles.header}>
@@ -27,6 +27,15 @@ const Header = () => {
         </Link>
       </h1>
 
+      {/* <ul>
+        {navItems.map(({ label, path }) => (
+          <li key={label}>
+            <Link href={path} className={pathname === path ? 'active' : null}>
+              {label}
+            </Link>
+          </li>
+        ))}
+      </ul> */}
     </header>
   )
 }
