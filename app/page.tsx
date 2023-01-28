@@ -1,5 +1,5 @@
-import { NUMBER_OF_POSTS_PER_PAGE } from '../../app/server-constants'
-import GoogleAnalytics from '../../components/google-analytics'
+import { NUMBER_OF_POSTS_PER_PAGE } from '../app/server-constants'
+import GoogleAnalytics from '../components/google-analytics'
 import {
   BlogPostLink,
   BlogTagLink,
@@ -11,7 +11,7 @@ import {
   PostTitle,
   ReadMoreLink,
 } from '../components/blog-parts'
-import styles from '../../styles/blog.module.css'
+import styles from '../styles/blog.module.css'
 import {
   getPosts,
   getFirstPost,
