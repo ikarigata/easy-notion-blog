@@ -180,9 +180,9 @@ table th {
 .neon {
   font-family: neon;
   color: #fb4264;
-  font-size: 9vw;
-  line-height: 9vw;
-  text-shadow: 0 0 3vw #f40a35;
+  font-size: 8vw;
+  line-height: 8vw;
+  text-shadow: 0 0 2vw #f40a35;
 }
 
 .flux {
