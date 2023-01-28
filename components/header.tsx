@@ -27,15 +27,6 @@ const Header = () => {
         </Link>
       </h1>
 
-      {/* <ul>
-        {navItems.map(({ label, path }) => (
-          <li key={label}>
-            <Link href={path} className={pathname === path ? 'active' : null}>
-              {label}
-            </Link>
-          </li>
-        ))}
-      </ul> */}
     </header>
   )
 }
