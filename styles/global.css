@@ -196,9 +196,11 @@ table th {
 }
 
 .neon {
-  animation: neon 7s ease infinite;
-  -moz-animation: neon 7s ease infinite;
-  -webkit-animation: neon 7s ease infinite;
+  animation: neon 7s cubic-bezier(0.2, 1.31, 0.83, -0.94) infinite alternate;
+  -moz-animation: neon 7s cubic-bezier(0.2, 1.31, 0.83, -0.94) infinite
+    alternate;
+  -webkit-animation: neon 7s cubic-bezier(0.2, 1.31, 0.83, -0.94) infinite
+    alternate;
 }
 
 @keyframes neon {
