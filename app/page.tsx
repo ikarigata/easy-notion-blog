@@ -9,7 +9,7 @@ import {
   PostExcerpt,
   PostTags,
   PostTitle,
-  ReadMoreLink,
+  // ReadMoreLink,
 } from '../components/blog-parts'
 import styles from '../styles/blog.module.css'
 import {
@@ -44,7 +44,7 @@ const BlogPage = async () => {
                 <PostTags post={post} />
                 <PostTitle post={post} />
                 <PostExcerpt post={post} />
-                <ReadMoreLink post={post} />
+                {/* <ReadMoreLink post={post} />  */}
               </div>
             )
           })}

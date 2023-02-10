@@ -44,7 +44,7 @@ const BlogPage = async () => {
                 <PostTags post={post} />
                 <PostTitle post={post} />
                 <PostExcerpt post={post} />
-                <ReadMoreLink post={post} />
+                <ReadMoreLink post={post} /> 
               </div>
             )
           })}
