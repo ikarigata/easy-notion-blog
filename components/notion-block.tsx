@@ -12,9 +12,22 @@ import BlockEquation from './notion-blocks/block-equation'
 import styles from '../styles/notion-block.module.css'
 
 const RichText = ({ richText }) => {
+
+  const uprightNum = function (rawStr) {
+    const regEx = /[0-9]{1,2}/g;
+    const processedStr = rawStr.replace(regEx, (matchedStr) => {
+      return `<span class=${styles.num}>${matchedStr}</span>`;
+    });
+    
+    console.log(processedStr);
+    return processedStr;
+    };
+
   let element
   if (richText.Text) {
-    element = richText.Text.Content
+    const processedText=uprightNum(richText.Text.Content);
+    element=<div dangerouslySetInnerHTML={{__html:processedText}}></div>
+    // element = richText.Text.Content
   } else if (richText.Equation) {
     element = <InlineEquation equation={richText.Equation} />
   } else {
@@ -91,12 +104,12 @@ const colorClass = (color: string) => {
 }
 
 const Paragraph = ({ block, headings }) => (
-  <p className={colorClass(block.Paragraph.Color)}>
+  <div className={colorClass(block.Paragraph.Color)}>
     {block.Paragraph.RichTexts.map((richText: interfaces.RichText, i: number) => (
       <RichText richText={richText} key={`paragraph-${block.Id}-${i}`} />
     ))}
     {block.Paragraph.Children ? <NotionBlocks blocks={block.Paragraph.Children} headings={headings} /> : null}
-  </p>
+  </div>
 )
 
 const Heading1 = ({ block, headings }) => <Heading heading={block.Heading1} level={1} headings={headings} />
@@ -450,3 +463,5 @@ const wrapListItems = (blocks: Array<interfaces.Block>) =>
   }, [])
 
 export default NotionBlocks
+
+
