@@ -51,6 +51,7 @@
 
 .postBody p {
   color: #121212;
+  padding-right: 0.5rem;
 }
 
 .postBody::-webkit-scrollbar {
