@@ -191,6 +191,7 @@ table th {
   /* font-size: 6vw; */
   line-height: 8vw;
   text-shadow: 0 0 2vw #f40a35;
+  text-align: left;
 }
 
 .flux {
@@ -202,10 +203,10 @@ table th {
 }
 
 .neon {
-  animation: neon 4s cubic-bezier(0.2, 1.31, 0.83, -0.94) infinite normal;
-  -moz-animation: neon 4s cubic-bezier(0.2, 1.31, 0.83, -0.94) infinite
+  animation: neon 5s cubic-bezier(0.2, 1.31, 0.83, -0.94) infinite normal;
+  -moz-animation: neon 5s cubic-bezier(0.2, 1.31, 0.83, -0.94) infinite
     alternate;
-  -webkit-animation: neon 4s cubic-bezier(0.2, 1.31, 0.83, -0.94) infinite
+  -webkit-animation: neon 5s cubic-bezier(0.2, 1.31, 0.83, -0.94) infinite
     alternate;
 }
 

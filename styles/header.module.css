@@ -1,10 +1,11 @@
 .header {
   display: block;
   padding: 15px 0;
-  text-align: center;
+  text-align: left;
 }
+
 .header h1 {
-  padding: 0.5rem 0;
+  /* padding: 0.5rem 0; */
   font-weight: 400;
   color: var(--fg);
 }
@@ -28,4 +29,11 @@
 }
 .header ul li :global(a.active) {
   color: var(--accents-3);
+}
+
+.header a {
+  color: --fg;
+  font-weight: 700;
+  font-size: 7vw;
+  text-align: left;
 }

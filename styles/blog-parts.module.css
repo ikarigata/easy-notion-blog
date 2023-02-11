@@ -37,13 +37,13 @@
 
 .postBody {
   /* padding: 0.5rem 0; */
-  padding: 2.5rem 1.5rem;
-  margin: 1.5rem 0;
+  padding: 3rem 1.5rem;
+  margin: 0.5rem 0;
   color: var(--fg);
   writing-mode: vertical-rl;
   overflow: scroll;
   width: 100%;
-  height: 70vh;
+  height: 65vh;
   scrollbar-width: none;
   background: #e8eaed;
   border-radius: 5px;

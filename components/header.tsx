@@ -22,8 +22,8 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <h1>
-        <Link className="neon" href="/">
-          {NEXT_PUBLIC_SITE_TITLE}
+        <Link className="glitch" data-text={NEXT_PUBLIC_SITE_TITLE} href="/">
+          {NEXT_PUBLIC_SITE_TITLE} 
         </Link>
       </h1>
 
