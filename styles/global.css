@@ -129,7 +129,9 @@ ul {
   font-size: 1rem;
   /* line-height: 1.8rem; */
   line-height: 2rem;
-  font-family: 游ゴシック, メイリオ, ＭＳ ゴシック;
+  font-family: '中ゴシックBBB', '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3',
+    'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック',
+    'MS P Gothic', sans-serif;
 }
 pre {
   margin: 0;
@@ -181,7 +183,9 @@ table th {
 }
 
 .neon {
-  font-family: ヒラギノ丸ゴ, ＭＳ ゴシック;
+  font-family: '中ゴシックBBB', '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3',
+    'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック',
+    'MS P Gothic', sans-serif;
   color: #fb4264;
   font-size: 8vw;
   /* font-size: 6vw; */
