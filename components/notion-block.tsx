@@ -19,7 +19,7 @@ const RichText = ({ richText }) => {
       return `<span class=${styles.num}>${matchedStr}</span>`;
     });
     
-    console.log(processedStr);
+    // console.log(processedStr);
     return processedStr;
     };
 
