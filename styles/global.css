@@ -12,8 +12,9 @@
   --bg: #1a1a1a;
   /* --fg: #e8eaed; */
   --fg: #e6e6e6;
-  --accents-1: #0070f3;
+  /* --accents-1: #0070f3;   */
   --accents-2: #3291ff;
+  --accents-1: #719ddc;
   --accents-3: #666;
   --geist-foreground: #000;
   --geist-success: #690;
