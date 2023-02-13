@@ -25,9 +25,9 @@ const RichText = ({ richText }) => {
 
   let element
   if (richText.Text) {
-    const processedText=uprightNum(richText.Text.Content);
-    element=<div dangerouslySetInnerHTML={{__html:processedText}}></div>
-    // element = richText.Text.Content
+    // const processedText=uprightNum(richText.Text.Content);
+    // element=<div dangerouslySetInnerHTML={{__html:processedText}}></div>
+    element = richText.Text.Content
   } else if (richText.Equation) {
     element = <InlineEquation equation={richText.Equation} />
   } else {
