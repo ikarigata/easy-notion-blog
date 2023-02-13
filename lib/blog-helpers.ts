@@ -17,7 +17,7 @@ export const getTagBeforeLink = (tag: string, date: string) => {
 export const getDateStr = (date: string) => {
   const dt = new Date(date)
 
-  if(date.indexOf('T') !== -1){
+  if (date.indexOf('T') !== -1) {
     // Consider timezone
     const elements = date.split('T')[1].split(/([+-])/)
     if (elements.length > 1) {
@@ -29,7 +29,8 @@ export const getDateStr = (date: string) => {
   const y = dt.getFullYear()
   const m = ('00' + (dt.getMonth() + 1)).slice(-2)
   const d = ('00' + dt.getDate()).slice(-2)
-  return y + '-' + m + '-' + d
+  return y + '年' + m + '月' + d + '日'
+  // return y + '/' + m + '/' + d
 }
 
 export const normalizeSlug = (slug: string) => {
