@@ -14,6 +14,11 @@
 
 .image {
   margin: 0 auto;
+  object-fit: contain;
+  max-width: 20rem;
+  max-height: 20rem;
+  text-align: center;
+  margin: auto 2rem;
 }
 .image > div:first-child {
   text-align: center;
@@ -220,7 +225,6 @@
 }
 .bookmark > a > div:first-child > div:last-child > div:first-child > img {
   max-width: 100%;
-  display: inline-block;
   display: block;
   object-fit: contain;
   max-width: 20rem;

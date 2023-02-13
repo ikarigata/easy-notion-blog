@@ -88,7 +88,12 @@
 .post :global(video),
 .post :global(img) {
   max-width: 100%;
-  display: inline-block;
+  display: block;
+  object-fit: contain;
+  max-width: 18rem;
+  max-height: 18rem;
+  text-align: center;
+  margin: 0 2rem;
 }
 .post :global(blockquote) {
   margin: 0.6rem 0;
