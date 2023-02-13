@@ -94,6 +94,7 @@
   max-height: 18rem;
   text-align: center;
   margin: 0 2rem;
+  border-radius: 5px;
 }
 .post :global(blockquote) {
   margin: 0.6rem 0;
