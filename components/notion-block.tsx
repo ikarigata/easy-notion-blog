@@ -13,15 +13,15 @@ import styles from '../styles/notion-block.module.css'
 
 const RichText = ({ richText }) => {
 
-  const uprightNum = function (rawStr) {
-    const regEx = /[0-9]{1,2}/g;
-    const processedStr = rawStr.replace(regEx, (matchedStr) => {
-      return `<span class=${styles.num}>${matchedStr}</span>`;
-    });
+  // const uprightNum = function (rawStr) {
+  //   const regEx = /[0-9]{1,2}/g;
+  //   const processedStr = rawStr.replace(regEx, (matchedStr) => {
+  //     return `<span class=${styles.num}>${matchedStr}</span>`;
+  //   });
     
-    // console.log(processedStr);
-    return processedStr;
-    };
+  //   // console.log(processedStr);
+  //   return processedStr;
+  //   };
 
   let element
   if (richText.Text) {
