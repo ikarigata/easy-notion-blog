@@ -4,6 +4,7 @@ import '../styles/global.css'
 import '../styles/syntax-coloring.css'
 import styles from '../styles/shared.module.css'
 
+//RootLayoutをappディレクトリの直下に置くとすべてのコンポネントがこれで包まれる
 const RootLayout = ({
   children,
 }: {
