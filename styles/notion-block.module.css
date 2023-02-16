@@ -4,8 +4,6 @@
 /* 縦書きの中でも数字だけは直立させたいのでこのクラスを適用したspanで囲む */
 .num {
   text-combine-upright: all;
-  letter-spacing: normal;
-  padding-right: 0.3rem;
 }
 
 .caption {
