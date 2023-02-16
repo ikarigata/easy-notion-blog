@@ -81,9 +81,13 @@
   padding-left: 0.2rem;
 }
 .post :global(p) {
-  margin: 0.3rem 0;
-  font-size: 1rem;
-  min-height: 1.8rem;
+  /* margin: 0.3rem 0; */
+  /* font-size: 1rem; */
+  /* font-size: 0.8rem;
+  min-height: 1.5rem; */
+  margin: 0 0 0rem 0;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
 }
 .post :global(video),
 .post :global(img) {
