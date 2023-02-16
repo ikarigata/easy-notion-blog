@@ -13,21 +13,25 @@ import styles from '../styles/notion-block.module.css'
 
 const RichText = ({ richText }) => {
 
-  // const uprightNum = function (rawStr) {
-  //   const regEx = /[0-9]{1,2}/g;
-  //   const processedStr = rawStr.replace(regEx, (matchedStr) => {
-  //     return `<span class=${styles.num}>${matchedStr}</span>`;
-  //   });
-    
-  //   // console.log(processedStr);
-  //   return processedStr;
-  //   };
+  const uprightNum = function (rawStr:string) {
+
+    const processed = rawStr.split(/(\b\d{1,4}\b)/).map ((item,index)=>{
+      return (
+      <React.Fragment key={index}>
+        { item.match(/(\b\d{1,4}\b)/) ? <span className={styles.num}>{item}</span> : item }
+      </React.Fragment> 
+      )
+    })
+
+    return <div>{processed}</div>;
+    };
 
   let element
   if (richText.Text) {
-    // const processedText=uprightNum(richText.Text.Content);
+    const processedText=uprightNum(richText.Text.Content);
     // element=<div dangerouslySetInnerHTML={{__html:processedText}}></div>
-    element = richText.Text.Content
+    element=processedText
+    // element = richText.Text.Content
   } else if (richText.Equation) {
     element = <InlineEquation equation={richText.Equation} />
   } else {
