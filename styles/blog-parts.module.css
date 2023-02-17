@@ -61,7 +61,7 @@
   /* padding-right: 0.85rem; */
   user-select: none;
   line-height: 1.7rem;
-  font-size: 1rem;
+  font-size: 0.975rem;
   font-family: '中ゴシックBBB', '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3',
     'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック',
     'MS P Gothic', sans-serif;
@@ -69,15 +69,15 @@
 
 .postBody blockquote {
   margin: 0 1rem;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: var(--quote);
   color: var(--bg);
-  padding: 1rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
   line-height: 1.7rem;
-  font-size: 1rem;
+  font-size: 0.975rem;
   font-family: '中ゴシックBBB', '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3',
     'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック',
     'MS P Gothic', sans-serif;
