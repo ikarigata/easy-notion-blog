@@ -58,10 +58,10 @@
 
 .postBody div {
   color: var(--bg);
-  padding-right: 0.5rem;
+  /* padding-right: 0.85rem; */
   user-select: none;
   line-height: 1.7rem;
-  font-size: 0.96875rem;
+  font-size: 1rem;
   font-family: '中ゴシックBBB', '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3',
     'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック',
     'MS P Gothic', sans-serif;
