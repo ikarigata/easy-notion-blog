@@ -59,6 +59,7 @@
 .postBody div {
   color: var(--bg);
   /* padding-right: 0.85rem; */
+  text-indent: 0.975rem;
   user-select: none;
   line-height: 1.7rem;
   font-size: 0.975rem;
@@ -71,6 +72,7 @@
   margin: 0 1rem;
   border-radius: 10px;
   background-color: var(--quote);
+  text-indent: 0.975rem;  
   color: var(--bg);
   padding: 1.5rem 1.5rem;
   -webkit-user-select: none;
