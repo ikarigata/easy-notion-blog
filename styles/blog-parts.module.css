@@ -70,7 +70,7 @@
 }
 
 .postBody * {
-  animation: fadeInAnime 1s ease-out forwards;
+  animation: fadeInAnime 0.8s ease-out forwards;
   opacity: 0;
 }
 
