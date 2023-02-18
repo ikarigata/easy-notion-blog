@@ -48,17 +48,16 @@
   border-radius: 10px;
   margin-top: 1rem;
   margin-bottom: 15vh;
-  animation-name: fadeInAnime;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+  animation: fadeInAnime 1s ease-out forwards;
   opacity: 0;
 }
 
 /* その場で */
 .fadeIn {
-  animation-name: fadeInAnime;
+  animation: fadeInAnime 1s ease-out;
+  /* animation-name: fadeInAnime;
   animation-duration: 1s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
   opacity: 0;
 }
 
