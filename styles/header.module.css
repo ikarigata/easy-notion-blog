@@ -46,7 +46,7 @@
   );
   background-repeat: no-repeat;
   background-size: 100% 2px;
-  background-position: bottom;
+  background-position: bottom; 
   font-weight: bold;
   display: block;
   /* width: 90vw; */
