@@ -34,7 +34,7 @@
 .header a {
   color: --fg;
   font-weight: 700;
-  font-size: 8vw;
+  font-size: 7vw;
   text-align: left;
   padding: 0.2rem 0;
   margin-bottom: 0.2rem;
@@ -46,7 +46,7 @@
   );
   background-repeat: no-repeat;
   background-size: 100% 2px;
-  background-position: bottom; 
+  background-position: bottom;
   font-weight: bold;
   display: block;
   /* width: 90vw; */
