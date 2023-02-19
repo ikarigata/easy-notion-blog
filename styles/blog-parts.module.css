@@ -102,7 +102,7 @@
 }
 
 .postBody blockquote div {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   border-radius: 10px;
   background-color: var(--quote);
   text-indent: 0.975rem;
