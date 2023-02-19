@@ -14,19 +14,23 @@
   /* font-size: 1.6rem; */
   font-size: 2rem;
   color: var(--fg);
+  display: block; 
 }
 @media (max-width: 600px) {
   .postTitle {
     font-size: 1.2rem;
+    display: block;
   }
 }
 .postTitle a {
   font-size: 1.3rem;
   color: inherit;
+  display: block;
 }
 @media (max-width: 600px) {
   .postTitle a {
     font-size: 1.3rem;
+    display: block;
   }
 }
 
