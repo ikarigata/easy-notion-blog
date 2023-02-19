@@ -98,7 +98,11 @@
 }
 
 .postBody blockquote {
-  margin: 0 1rem;
+  margin: 1rem 1rem;
+}
+
+.postBody blockquote div {
+  margin: 1rem 0;
   border-radius: 10px;
   background-color: var(--quote);
   text-indent: 0.975rem;
@@ -108,7 +112,7 @@
   -moz-user-select: none;
   user-select: none;
   line-height: 1.7rem;
-  font-size: 0.975rem;
+  font-size: 0.8rem;
   font-family: '中ゴシックBBB', '游ゴシック', YuGothic, 'ヒラギノ角ゴ Pro W3',
     'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック',
     'MS P Gothic', sans-serif;
