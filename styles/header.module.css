@@ -45,7 +45,7 @@
     var(--fg) 0 70px
   );
   background-repeat: no-repeat;
-  background-size: 100% 2px;
+  background-size: 100% 1px;
   background-position: bottom;
   font-weight: bold;
   display: block;
