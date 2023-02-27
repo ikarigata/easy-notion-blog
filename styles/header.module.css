@@ -40,12 +40,11 @@
   margin-bottom: 0.2rem;
   background-image: linear-gradient(
     90deg,
-    var(--fg) 0 60px,
-    transparent 60px 70px,
-    var(--fg) 0 70px
+    transparent 0 60px,
+    var(--fg) 0 90px
   );
   background-repeat: no-repeat;
-  background-size: 100% 0.5px;
+  background-size: 100% 1px;
   background-position: bottom;
   font-weight: bold;
   display: block;
