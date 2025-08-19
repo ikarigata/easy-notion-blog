@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation'
-import { NEXT_PUBLIC_URL } from '../../server-constants'
+// import { NEXT_PUBLIC_URL } from '../../server-constants'
 import { Post } from '../../../lib/notion/interfaces'
 import GoogleAnalytics from '../../../components/google-analytics'
 import {
@@ -9,9 +9,9 @@ import {
   PostTags,
   PostTitle,
 } from '../../../components/blog-parts'
-import SocialButtons from '../../../components/social-buttons'
+// import SocialButtons from '../../../components/social-buttons'
 import styles from '../../../styles/blog.module.css'
-import { getBlogLink } from '../../../lib/blog-helpers'
+// import { getBlogLink } from '../../../lib/blog-helpers'
 import {
   getAllPosts,
   getPostBySlug,
