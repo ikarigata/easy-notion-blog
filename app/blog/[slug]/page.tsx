@@ -52,7 +52,7 @@ const BlogSlugPage = async ({ params: { slug } }) => {
             <NoContents contents={blocks} />
             <PostBody blocks={blocks} />
 
-            <footer>
+            {/* <footer>
               {NEXT_PUBLIC_URL && (
                 <SocialButtons
                   title={post.Title}
@@ -63,7 +63,7 @@ const BlogSlugPage = async ({ params: { slug } }) => {
                   id={post.Slug}
                 />
               )}
-            </footer>
+            </footer> */}
           </div>
         </div>
       </div>
