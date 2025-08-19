@@ -17,7 +17,7 @@ const RootLayout = ({
         <div className={styles.content}>
           {children}
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </body>
   </html>
