@@ -51,7 +51,7 @@
   background: var(--fg);
   border-radius: 10px;
   margin-top: 1rem;
-  margin-bottom: 15vh;
+  /* margin-bottom: 15vh; */
 }
 
 /* その場で */
