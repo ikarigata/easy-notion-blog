@@ -3,8 +3,6 @@ import { NEXT_PUBLIC_URL } from '../../server-constants'
 import { Post } from '../../../lib/notion/interfaces'
 import GoogleAnalytics from '../../../components/google-analytics'
 import {
-  BlogPostLink,
-  BlogTagLink,
   NoContents,
   PostBody,
   PostDate,
@@ -41,19 +39,11 @@ const BlogSlugPage = async ({ params: { slug } }) => {
 
   const [
     blocks,
-    rankedPosts,
-    recentPosts,
-    tags,
     sameTagPosts,
   ] = await Promise.all([
     getAllBlocksByBlockId(post.PageId),
-    getRankedPosts(),
-    getPosts(5),
-    getAllTags(),
     getPostsByTag(post.Tags[0], 6),
   ])
-
-  const otherPostsHavingSameTag = sameTagPosts.filter((p: Post) => p.Slug !== post.Slug)
 
   return (
     <>
