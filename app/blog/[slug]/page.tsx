@@ -5,7 +5,7 @@ import GoogleAnalytics from '../../../components/google-analytics'
 import {
   NoContents,
   PostBody,
-  PostDate,
+  // PostDate,
   PostTags,
   PostTitle,
 } from '../../../components/blog-parts'
