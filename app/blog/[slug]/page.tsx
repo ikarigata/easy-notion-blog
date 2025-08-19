@@ -21,7 +21,7 @@ import {
 export const revalidate = 30
 
 export async function generateStaticParams() {
-  const posts = await getAllPosts()
+  const posts :Post[]= await getAllPosts()
   return posts.map(p => ({ slug: p.Slug }))
 }
 
