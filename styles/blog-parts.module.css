@@ -46,7 +46,7 @@
   text-orientation: mixed;
   overflow: scroll;
   width: 100%;
-  height: 65vh;
+  height: 70vh;
   scrollbar-width: none;
   background: var(--fg);
   border-radius: 10px;

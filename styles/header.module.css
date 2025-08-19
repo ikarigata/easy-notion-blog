@@ -6,7 +6,7 @@
 
 .header h1 {
   /* padding: 0.5rem 0; */
-  font-weight: 400;
+  font-weight: 300;
   color: var(--fg);
 }
 .header h1 a {
@@ -33,8 +33,8 @@
 
 .header a {
   color: --fg;
-  font-weight: 700;
-  font-size: 7vw;
+  font-weight: 600;
+  font-size: 6vw;
   text-align: left;
   padding: 0.2rem 0;
   margin-bottom: 0.2rem;
