@@ -13,12 +13,8 @@ import SocialButtons from '../../../components/social-buttons'
 import styles from '../../../styles/blog.module.css'
 import { getBlogLink } from '../../../lib/blog-helpers'
 import {
-  getPosts,
   getAllPosts,
-  getRankedPosts,
   getPostBySlug,
-  getPostsByTag,
-  getAllTags,
   getAllBlocksByBlockId,
 } from '../../../lib/notion/client'
 
@@ -39,10 +35,8 @@ const BlogSlugPage = async ({ params: { slug } }) => {
 
   const [
     blocks,
-    sameTagPosts,
   ] = await Promise.all([
-    getAllBlocksByBlockId(post.PageId),
-    getPostsByTag(post.Tags[0], 6),
+    getAllBlocksByBlockId(post.PageId)
   ])
 
   return (
