@@ -1,5 +1,5 @@
 import Header from '../components/header'
-import Footer from '../components/footer'
+// import Footer from '../components/footer'
 import '../styles/global.css'
 import '../styles/syntax-coloring.css'
 import styles from '../styles/shared.module.css'
