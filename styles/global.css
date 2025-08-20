@@ -43,8 +43,7 @@ body {
 
 body {
   min-height: 100vh;
-  background: radial-gradient(at 0% 0%, #485833, transparent), radial-gradient(at 100% 0%, #33d6ee, transparent), radial-gradient(at 0% 100%, #ee22f6, transparent), radial-gradient(at 100% 100%, #fefefe, transparent);
-  background-attachment: fixed;
+  background: var(--bg);
   color: var(--fg);
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Segoe UI,
     Hiragino Kaku Gothic ProN, Hiragino Sans, ヒラギノ角ゴ ProN W3, Arial,
