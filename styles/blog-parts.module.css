@@ -4,7 +4,7 @@
 }
 
 .postTags {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 .postTags a {
   padding-right: 0.8rem;
@@ -18,7 +18,7 @@
 }
 @media (max-width: 600px) {
   .postTitle {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     display: block;
   }
 }
