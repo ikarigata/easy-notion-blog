@@ -18,12 +18,12 @@
 }
 @media (max-width: 600px) {
   .postTitle {
-    font-size: 1.2rem;
+    font-size: 1rem;
     display: block;
   }
 }
 .postTitle a {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: inherit;
   display: block;
 }
