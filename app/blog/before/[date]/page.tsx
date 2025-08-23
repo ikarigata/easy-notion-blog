@@ -60,7 +60,7 @@ const BlogBeforeDatePage = async ({ params: { date: encodedDate } }) => {
           })}
 
           <footer>
-            <NextPageLink firstPost={firstPost} posts={posts} />
+            <NextPageLink posts={posts} />
           </footer>
         </div>
 

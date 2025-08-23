@@ -65,7 +65,7 @@ const BlogTagPage = async ({ params: { tag: encodedTag } }) => {
           })}
 
           <footer>
-            <NextPageLink firstPost={firstPost} posts={posts} tag={tag} />
+            <NextPageLink posts={posts} tag={tag} />
           </footer>
         </div>
 

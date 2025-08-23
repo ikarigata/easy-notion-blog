@@ -63,7 +63,7 @@ const BlogTagBeforeDatePage = async ({ params: { tag: encodedTag, date: encodedD
           })}
 
           <footer>
-            <NextPageLink firstPost={firstPost} posts={posts} tag={tag} />
+            <NextPageLink posts={posts} tag={tag} />
           </footer>
         </div>
 

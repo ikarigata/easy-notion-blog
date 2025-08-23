@@ -66,13 +66,10 @@ export const ReadMoreLink = ({ post }) => (
   </div>
 )
 
-export const NextPageLink = ({ firstPost, posts, tag = '' }) => {
-  if (!firstPost) return null
+export const NextPageLink = ({ posts, tag = '' }) => {
   if (posts.length === 0) return null
 
   const lastPost = posts[posts.length - 1]
-
-  if (firstPost.Date === lastPost.Date) return null
 
   return (
     <div className={styles.nextPageLink}>

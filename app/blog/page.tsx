@@ -50,7 +50,7 @@ const BlogPage = async () => {
           })}
 
           <footer>
-            <NextPageLink firstPost={firstPost} posts={posts} />
+            <NextPageLink posts={posts} />
           </footer>
         </div>
 

@@ -38,9 +38,9 @@ const BlogPage = async () => {
             )
           })}
 
-          {/* <footer>
-            <NextPageLink firstPost={firstPost} posts={posts} />
-          </footer> */}
+          <footer>
+            <NextPageLink posts={posts} />
+          </footer>
         </div>
 
         <div className={styles.subContent}>
