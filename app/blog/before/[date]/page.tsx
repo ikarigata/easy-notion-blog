@@ -4,7 +4,6 @@ import GoogleAnalytics from '../../../../components/google-analytics'
 import {
   getRankedPosts,
   getPostsBefore,
-  getFirstPost,
   getAllTags,
 } from '../../../../lib/notion/client'
 import {
@@ -29,9 +28,8 @@ const BlogBeforeDatePage = async ({ params: { date: encodedDate } }) => {
     notFound()
   }
 
-  const [posts, firstPost, rankedPosts, tags] = await Promise.all([
+  const [posts, rankedPosts, tags] = await Promise.all([
     getPostsBefore(date, NUMBER_OF_POSTS_PER_PAGE),
-    getFirstPost(),
     getRankedPosts(),
     getAllTags(),
   ])

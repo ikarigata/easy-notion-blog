@@ -16,7 +16,6 @@ import {
   getPosts,
   getRankedPosts,
   getPostsByTag,
-  getFirstPostByTag,
   getAllTags,
 } from '../../../../lib/notion/client'
 
@@ -36,8 +35,7 @@ const BlogTagPage = async ({ params: { tag: encodedTag } }) => {
     notFound()
   }
 
-  const [firstPost, rankedPosts, recentPosts, tags] = await Promise.all([
-    getFirstPostByTag(tag),
+  const [rankedPosts, recentPosts, tags] = await Promise.all([
     getRankedPosts(),
     getPosts(5),
     getAllTags(),

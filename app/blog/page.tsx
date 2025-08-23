@@ -14,7 +14,6 @@ import {
 import styles from '../../styles/blog.module.css'
 import {
   getPosts,
-  getFirstPost,
   getRankedPosts,
   getAllTags,
 } from '../../lib/notion/client'
@@ -23,9 +22,8 @@ import { NEXT_PUBLIC_SITE_TITLE } from '../server-constants'
 export const revalidate = 60
 
 const BlogPage = async () => {
-  const [posts, firstPost, rankedPosts, tags] = await Promise.all([
+  const [posts,rankedPosts, tags] = await Promise.all([
     getPosts(NUMBER_OF_POSTS_PER_PAGE),
-    getFirstPost(),
     getRankedPosts(),
     getAllTags(),
   ])

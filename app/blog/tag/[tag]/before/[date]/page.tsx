@@ -16,7 +16,6 @@ import {
   getPosts,
   getRankedPosts,
   getPostsByTagBefore,
-  getFirstPostByTag,
   getAllTags,
 } from '../../../../../../lib/notion/client'
 import styles from '../../../../../../styles/blog.module.css'
@@ -31,9 +30,8 @@ const BlogTagBeforeDatePage = async ({ params: { tag: encodedTag, date: encodedD
     notFound()
   }
 
-  const [posts, firstPost, rankedPosts, recentPosts, tags] = await Promise.all([
+  const [posts, rankedPosts, recentPosts, tags] = await Promise.all([
     getPostsByTagBefore(tag, date, NUMBER_OF_POSTS_PER_PAGE),
-    getFirstPostByTag(tag),
     getRankedPosts(),
     getPosts(5),
     getAllTags(),
